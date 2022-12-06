@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Word_4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="128dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="328dp"
+            android:backgroundTint="@color/white"
+            android:onClick="rightWord4Click4"
+            android:text="@string/right4"
+            android:textColor="#009688"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="128dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="44dp"
+            android:onClick="falseWord1Click"
+            android:text="@string/false12"
+            app:layout_constraintEnd_toStartOf="@+id/button20"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:backgroundTint="@color/white"
+            android:textColor="#009688"
+            app:layout_constraintStart_toStartOf="@+id/button17"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="128dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="328dp"
+            android:onClick="falseWord1Click"
+            android:text="@string/false11"
+            android:backgroundTint="@color/white"
+            android:textColor="#009688"
+            app:layout_constraintStart_toEndOf="@+id/button17"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="128dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="44dp"
+            android:onClick="falseWord1Click"
+            android:backgroundTint="@color/white"
+            android:textColor="#009688"
+            android:text="@string/false10"
+            app:layout_constraintEnd_toEndOf="@+id/button19"
+            app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="208dp"
+            android:text="@string/wq4"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

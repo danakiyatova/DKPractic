@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Word_3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="208dp"
+            android:text="@string/wq3"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="103dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="328dp"
+            android:backgroundTint="@color/white"
+            android:onClick="falseWord3Click7"
+            android:text="@string/right3"
+
+            android:textColor="#009688"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="103dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="328dp"
+            android:layout_marginEnd="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="falseWord3Click9"
+            android:text="@string/false8"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="103dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="44dp"
+            android:onClick="falseWord3Click8"
+            android:text="@string/false7"
+            android:backgroundTint="@color/white"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button12"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="103dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="44dp"
+            android:onClick="rightWord3Click3"
+            android:text="@string/false9"
+            android:backgroundTint="@color/white"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="@+id/button13"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
